@@ -1,0 +1,126 @@
+
+
+============================== 2022-07-25 19:06:43.700578 | 41dbaee5-52b9-43a4-834b-0745d5d1f929 ==============================
+19:06:43.700586 [info ] [MainThread]: Running with dbt=1.1.1
+19:06:43.700888 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/lucasbillaud/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'jaffle_shop', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+19:06:43.701000 [debug] [MainThread]: Tracking: tracking
+19:06:43.721293 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe1f9d1aca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe1f9d1ac70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe1f9d1aaf0>]}
+19:06:43.722684 [info ] [MainThread]: Creating dbt configuration folder at /Users/lucasbillaud/.dbt
+19:06:43.723787 [debug] [MainThread]: Starter project path: /Users/lucasbillaud/PycharmProjects/dbt_tutorial/venv/lib/python3.9/site-packages/dbt/include/starter_project
+19:08:23.726736 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe1f922d670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe1f9d1ad60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe1f9d1a520>]}
+
+
+============================== 2022-07-25 19:08:29.406468 | 5a516bc2-50f8-4b66-a99d-e63de657cb15 ==============================
+19:08:29.406476 [info ] [MainThread]: Running with dbt=1.1.1
+19:08:29.406738 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/lucasbillaud/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'jaffle_shop', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+19:08:29.406847 [debug] [MainThread]: Tracking: tracking
+19:08:29.417154 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f938b4f5bb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f938b4f5b80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f938b4f5a00>]}
+19:08:29.418790 [info ] [MainThread]: A project called jaffle_shop already exists here.
+19:08:29.419120 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f938b4f56a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f938b4f5c70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f938b4f55b0>]}
+
+
+============================== 2022-07-25 19:09:38.772813 | a3536f33-c323-4a03-916e-c3df4c80b16d ==============================
+19:09:38.772820 [info ] [MainThread]: Running with dbt=1.1.1
+19:09:38.773113 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/lucasbillaud/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'jaffle_shop', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+19:09:38.773231 [debug] [MainThread]: Tracking: tracking
+19:09:38.782406 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feadb4f5c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feadb4f5be0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feadb4f5a60>]}
+19:09:38.784056 [debug] [MainThread]: Starter project path: /Users/lucasbillaud/PycharmProjects/dbt_tutorial/venv/lib/python3.9/site-packages/dbt/include/starter_project
+19:11:49.138736 [info ] [MainThread]: Profile jaffle_shop written to /Users/lucasbillaud/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+19:11:49.139171 [info ] [MainThread]: 
+Your new dbt project "jaffle_shop" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+19:11:49.139541 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feadaa226a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feadaa2cbb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feadaa2c970>]}
+
+
+============================== 2022-07-26 18:47:09.418005 | 421938ef-d701-424f-a8c3-76f5a87160a3 ==============================
+18:47:09.418018 [info ] [MainThread]: Running with dbt=1.1.1
+18:47:09.418721 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/lucasbillaud/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+18:47:09.418873 [debug] [MainThread]: Tracking: tracking
+18:47:09.435469 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8b2adda4f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8b2adda0a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8b2adda370>]}
+18:47:09.927178 [debug] [MainThread]: Executing "git --help"
+18:47:10.159917 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+18:47:10.160438 [debug] [MainThread]: STDERR: "b''"
+18:47:10.177632 [debug] [MainThread]: Acquiring new bigquery connection "debug"
+18:47:10.179573 [debug] [MainThread]: Opening a new connection, currently in state init
+18:47:16.187534 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery client: 'Runtime Error
+  
+  dbt encountered an error while trying to read your profiles.yml file.
+  
+  Could not automatically determine credentials. Please set GOOGLE_APPLICATION_CREDENTIALS or explicitly create credentials and re-run the application. For more information, please see https://cloud.google.com/docs/authentication/getting-started
+  '
+18:47:16.188563 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8b2c359ca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8b2c3595e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8b2c359af0>]}
+18:47:16.596750 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-07-26 18:49:56.473570 | ab471218-e398-497a-a9d6-20c1be2b9adf ==============================
+18:49:56.473577 [info ] [MainThread]: Running with dbt=1.1.1
+18:49:56.473827 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/lucasbillaud/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+18:49:56.473931 [debug] [MainThread]: Tracking: tracking
+18:49:56.482809 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fde7e01a4c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fde7e01a070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fde7e01a340>]}
+18:49:56.696381 [debug] [MainThread]: Executing "git --help"
+18:49:56.709190 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+18:49:56.709686 [debug] [MainThread]: STDERR: "b''"
+18:49:56.713972 [debug] [MainThread]: Acquiring new bigquery connection "debug"
+18:49:56.715939 [debug] [MainThread]: Opening a new connection, currently in state init
+18:50:05.723801 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery client: 'Runtime Error
+  
+  dbt encountered an error while trying to read your profiles.yml file.
+  
+  Could not automatically determine credentials. Please set GOOGLE_APPLICATION_CREDENTIALS or explicitly create credentials and re-run the application. For more information, please see https://cloud.google.com/docs/authentication/getting-started
+  '
+18:50:05.724995 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fde7ec48580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fde7ec482b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fde7ec48be0>]}
+18:50:06.226375 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-07-26 19:19:58.783669 | 176fca01-8f96-44d9-9f76-9120ee6033ae ==============================
+19:19:58.783676 [info ] [MainThread]: Running with dbt=1.1.1
+19:19:58.784929 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/lucasbillaud/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'jaffle_shop', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+19:19:58.785110 [debug] [MainThread]: Tracking: tracking
+19:19:58.794603 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb6bfd1a370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb6bfcb1550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb6bfd1a070>]}
+19:19:58.796462 [debug] [MainThread]: Starter project path: /Users/lucasbillaud/PycharmProjects/dbt_tutorial/venv/lib/python3.9/site-packages/dbt/include/starter_project
+19:20:28.074639 [info ] [MainThread]: Profile jaffle_shop written to /Users/lucasbillaud/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+19:20:28.075007 [info ] [MainThread]: 
+Your new dbt project "jaffle_shop" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+19:20:28.075320 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb6bfd1a370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb6bfd1a3a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb6bfd1a220>]}
+
+
+============================== 2022-07-26 19:22:39.896997 | e702d3a3-89f2-4aa4-a8a3-3c02435f4bce ==============================
+19:22:39.897004 [info ] [MainThread]: Running with dbt=1.1.1
+19:22:39.897261 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/lucasbillaud/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+19:22:39.897366 [debug] [MainThread]: Tracking: tracking
+19:22:39.907010 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a1761a4c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a1761a070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a1761a340>]}
+19:22:40.125939 [debug] [MainThread]: Executing "git --help"
+19:22:40.136841 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+19:22:40.137454 [debug] [MainThread]: STDERR: "b''"
+19:22:40.141970 [debug] [MainThread]: Acquiring new bigquery connection "debug"
+19:22:40.144313 [debug] [MainThread]: Opening a new connection, currently in state init
+19:22:40.716877 [debug] [MainThread]: On debug: select 1 as id
+19:22:42.412375 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a130079a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a18349880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a183490d0>]}
+19:22:42.870880 [debug] [MainThread]: Connection 'debug' was properly closed.
